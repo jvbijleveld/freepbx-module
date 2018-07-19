@@ -1,0 +1,26 @@
+<module>
+	<rawname>Recordings2AWS</rawname>
+	<name>Recordings to AWS</name>
+	<repo>standard</repo>
+	<version>0.0.1</version>
+	<license>GPLv2</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-2.0.txt</licenselink>
+	<publisher>Jeffrey van Bijleveld</publisher>
+	<category>Applications</category>
+		<description>FreePBX module for uploading recordings to AWS S3</description>
+	<info>https://github.com/jvbijleveld/freepbx-module.git</info>
+	<changelog>
+		0.0.1 - initial setup
+	</changelog>
+	<menuitems>
+		<Settings>Recordings to AWS</Settings>
+	</menuitems>
+	<depends>
+		<module>recorings gt1.0</module>
+	</depends>
+	<supported>
+		<version>14.0</version>
+	</supported>
+	<location>release/0.1/Recordings2AWS-0.1.tgz</location>
+	
+</module>
